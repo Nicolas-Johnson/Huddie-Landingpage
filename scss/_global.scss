@@ -25,7 +25,8 @@ body {
     background: var(--c-violet);
     //line-height: 1.7;
     //font-size: var(--f-body);
-    color: white;    
+    color: white;   
+    text-align: center; 
 }
 
 h1 {
@@ -48,5 +49,10 @@ img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.wrapper {
+    width: min(calc(1440px - 8rem), calc(100% - 4rem));
+    margin-inline: auto;
 }
 

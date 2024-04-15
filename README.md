@@ -12,7 +12,7 @@
 
 ![](./public/images/desktop-design.jpg)
 
-Just a simple page website to practice mi skils with HTML and SCSS
+Just a simple page website to practice my skills with HTML and SCSS
 
 ## My process
 

@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+
+    a {
+        margin-block: 40px;
+    }
+
+    &__logo {
+        max-width: 8.125rem;
+    }
+
+    @media (width >= 768px) {
+        &__logo {
+            max-width: 210px;
+        }
+        
+    }
+}
