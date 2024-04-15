@@ -1,0 +1,55 @@
+// Colors & fonts for the project
+:root {
+    --c-violet: hsl(257, 40%, 49%);
+    --c-soft-magenta: hsl(300, 69%, 71%);
+    //font-family: "Open Sans", sans-serif;
+    //font-family: "Poppins", sans-serif;
+}
+
+// A feel boilerplate styles now...
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    //line-height: 1.7;
+    //font-size: var(--f-body);
+    //color: var(--c-gray);    
+}
+
+h1,
+h2,
+h3 {
+    //color: var(--c-blue);
+    //line-height: 1.1;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    //transition: 150ms ease-in-out;
+    //transition-property: color, background-color;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
