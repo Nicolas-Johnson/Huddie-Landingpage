@@ -1,0 +1,53 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+
+    &__ilustration {
+
+
+    }
+
+    &__ilustration-image {
+
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    &__info-title {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.6;        
+    }
+
+    &__info-description {
+        font-size: 1rem;
+        padding-inline: 2px;
+        line-height: 1.6;        
+    }
+
+    &__info-cta {
+        font-family: "Poppins", sans-serif;
+        border-radius: 25px;
+        background-color: white;
+        color: var(--c-violet);
+        width: 200px;
+        font-size: 0.875rem;
+        padding: 0.7rem 2rem;  
+        align-self: center;
+        box-shadow: 2px 2px 3px black;
+        outline: none;
+    }
+
+    .hero__info-cta:hover {
+        background-color: var(--c-soft-magenta);
+        color: white;
+    }
+}
