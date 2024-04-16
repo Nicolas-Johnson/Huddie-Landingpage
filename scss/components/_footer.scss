@@ -1,8 +1,18 @@
 .social {
 
-    margin-block: 50px 40px;
+    margin-block: 1.875rem;
+    
 
-    &__incon {
+    @media (width >= 48.125em) {
+        text-align: end;
+    }
 
+    &__icon {
+        margin-inline-start: 0.625rem;
+
+    }
+
+    .social__icon:hover {
+        color: var(--c-soft-magenta);
     }
 }

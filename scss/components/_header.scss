@@ -3,16 +3,16 @@
     justify-content: flex-start;
 
     a {
-        margin-block: 40px 50px;
+        margin-block: 2.5rem 3.125rem;
     }
 
     &__logo {
         max-width: 8.125rem;
     }
 
-    @media (width >= 768px) {
+    @media (width >= 48.125em) {
         &__logo {
-            max-width: 210px;
+            max-width: 13.125rem;
         }
         
     }

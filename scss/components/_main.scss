@@ -2,11 +2,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 50px;
+    gap: 3.125rem;
 
+    @media (width >= 48.125em) {
+        flex-direction: row;
+        gap: 1.25rem;
+        margin-block: 3.125rem;
+    }
     &__ilustration {
 
-
+        @media (width >= 48.125em) {
+            width: 60%;
+        }
+        
     }
 
     &__ilustration-image {
@@ -16,7 +24,15 @@
     &__info {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 1.25rem;
+
+        @media (width >= 48.125em) {
+            width: 40%;
+            justify-content: start;
+            text-align: start;
+            margin-block-start: 3.125rem;
+        }
+
 
     }
 
@@ -29,21 +45,26 @@
 
     &__info-description {
         font-size: 1rem;
-        padding-inline: 2px;
+        padding-inline: .125rem;
         line-height: 1.6;        
     }
 
     &__info-cta {
         font-family: "Poppins", sans-serif;
-        border-radius: 25px;
+        border-radius: 1.563rem;
         background-color: white;
         color: var(--c-violet);
-        width: 200px;
+        width: 12.5rem;
         font-size: 0.875rem;
         padding: 0.7rem 2rem;  
         align-self: center;
         box-shadow: 2px 2px 3px black;
         outline: none;
+
+        @media (width >= 48.125em) {
+            align-self: flex-start;
+            text-align: center;
+        }
     }
 
     .hero__info-cta:hover {

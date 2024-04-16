@@ -23,10 +23,16 @@ body {
     min-height: 100vh;
     font-family: "Open Sans", sans-serif;
     background: var(--c-violet);
-    //line-height: 1.7;
-    //font-size: var(--f-body);
+    background-image: url(/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
     color: white;   
     text-align: center; 
+
+    @media (width >= 48.125em) {
+        background-image: url(/images/bg-desktop.svg);
+        background-size: cover;
+    }
 }
 
 h1 {
@@ -52,7 +58,7 @@ img {
 }
 
 .wrapper {
-    width: min(calc(1440px - 8rem), calc(100% - 4rem));
+    width: min(82rem, calc(100% - 4rem));
     margin-inline: auto;
 }
 
